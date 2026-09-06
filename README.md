@@ -70,7 +70,11 @@ Automation should reduce repetition while keeping approvals, control gates, and 
 
 ## Repositories
 
-This portfolio is paired with a public engineering-patterns repository containing sanitized examples of:
+The companion implementation repository is **NOC Operator Patterns**:
+
+https://github.com/anwardeen-PF/misc-repo
+
+It contains sanitized examples of:
 
 - operator card rendering;
 - incident correlation;
