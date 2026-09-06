@@ -6,6 +6,16 @@ I build operator-first tooling for real Network Operations work: incident triage
 
 My focus is simple: **remove repetitive friction without automating away engineering judgment.**
 
+## Organization contribution verification
+
+This portfolio is a sanitized public presentation of work developed in the course of **PacketFabric / shared NOC engineering**.
+
+- Public contribution page: [PacketFabric NOC contribution provenance](contributions/packetfabric-noc.md)
+- Internal implementation source (authorized coworkers): https://github.com/anwardeen-PF/noc-engineering-toolkit
+- Internal provenance record (authorized coworkers): https://github.com/anwardeen-PF/noc-engineering-toolkit/blob/main/docs/CONTRIBUTIONS-PACKETFABRIC.md
+- Reconciliation/history PR: https://github.com/anwardeen-PF/noc-engineering-toolkit/pull/4
+
+The internal links provide the organization-context verification trail. This does not imply public endorsement by PacketFabric.
 ## PacketFabric NOC focus
 
 - Network Operations tooling and workflow design
