@@ -1,10 +1,12 @@
-# James Deen — Network Operations Engineering
+# PacketFabric NOC — James Deen Engineering Portfolio
+
+> **This repository represents my PacketFabric / shared NOC engineering work.**
 
 I build operator-first tooling for real Network Operations work: incident triage, evidence collection, workflow automation, terminal UX, recovery engineering, and safe control-plane design.
 
 My focus is simple: **remove repetitive friction without automating away engineering judgment.**
 
-## What I work on
+## PacketFabric NOC focus
 
 - Network Operations tooling and workflow design
 - Incident correlation and triage
@@ -40,7 +42,7 @@ Human answer first; raw evidence second.
 Preserve successful workflows in source control.
 ```
 
-## Selected portfolio areas
+## Selected PacketFabric NOC portfolio areas
 
 ### Incident correlation
 
@@ -52,12 +54,6 @@ I design operator workflows that correlate by scope, service, component, time, a
 
 I build terminal interfaces that turn large machine outputs into labeled, wrapped operator cards instead of forcing the engineer to scan sideways through dense matrices.
 
-### Hardware evidence correlation
-
-A device can currently report healthy while historical hardware evidence still shows a real recurring fault pattern.
-
-My workflows explicitly separate **current state** from **historical evidence** so a single healthy snapshot does not erase the investigation context.
-
 ### Recovery engineering
 
 Useful tooling should not survive only in one shell session, one laptop, or one person's memory.
@@ -68,20 +64,11 @@ I treat source control, recovery installers, drift checks, and documentation as 
 
 Automation should reduce repetition while keeping approvals, control gates, and production safety explicit.
 
-## Repositories
+## Qwilt NOC companion
 
-The companion implementation repository is **NOC Operator Patterns**:
+For the sanitized Qwilt-side operator patterns and NOC workflow engineering, use:
 
 https://github.com/anwardeen-PF/misc-repo
-
-It contains sanitized examples of:
-
-- operator card rendering;
-- incident correlation;
-- evidence normalization;
-- status vocabulary;
-- recovery patterns;
-- CLI presentation helpers.
 
 ## About this portfolio
 
@@ -90,5 +77,5 @@ The public material here is intentionally sanitized. It demonstrates engineering
 ---
 
 **James Deen**  
-Network Operations / Network Engineering  
+**PacketFabric NOC / Network Operations Engineering**  
 Operator tooling • incident workflow • automation • network troubleshooting
