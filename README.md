@@ -11,11 +11,21 @@ My focus is simple: **remove repetitive friction without automating away enginee
 This portfolio is a sanitized public presentation of work developed in the course of **PacketFabric / shared NOC engineering**.
 
 - Public contribution page: [PacketFabric NOC contribution provenance](contributions/packetfabric-noc.md)
-- Internal implementation source (authorized coworkers): https://github.com/anwardeen-PF/noc-engineering-toolkit
-- Internal provenance record (authorized coworkers): https://github.com/anwardeen-PF/noc-engineering-toolkit/blob/main/docs/CONTRIBUTIONS-PACKETFABRIC.md
-- Reconciliation/history PR: https://github.com/anwardeen-PF/noc-engineering-toolkit/pull/4
+- Internal implementation source (authorized coworkers): [noc-engineering-toolkit](https://github.com/anwardeen-PF/noc-engineering-toolkit)
+- Internal provenance record (authorized coworkers): [CONTRIBUTIONS-PACKETFABRIC.md](https://github.com/anwardeen-PF/noc-engineering-toolkit/blob/main/docs/CONTRIBUTIONS-PACKETFABRIC.md)
+- Reconciliation/history PR: [noc-engineering-toolkit#4](https://github.com/anwardeen-PF/noc-engineering-toolkit/pull/4)
 
 The internal links provide the organization-context verification trail. This does not imply public endorsement by PacketFabric.
+
+## Repository contents
+
+| Path | Contents |
+| --- | --- |
+| [`architecture/operator-first-control-plane.md`](architecture/operator-first-control-plane.md) | Operator-first control-plane architecture |
+| [`case-studies/incident-correlation.md`](case-studies/incident-correlation.md) | Correlating alerts into one incident |
+| [`case-studies/current-state-vs-history.md`](case-studies/current-state-vs-history.md) | Separating current state from fault history |
+| [`contributions/packetfabric-noc.md`](contributions/packetfabric-noc.md) | PacketFabric NOC contribution provenance |
+
 ## PacketFabric NOC focus
 
 - Network Operations tooling and workflow design
@@ -58,11 +68,11 @@ Preserve successful workflows in source control.
 
 Multiple alerts do not automatically mean multiple failures.
 
-I design operator workflows that correlate by scope, service, component, time, and infrastructure before deciding whether alarms represent one event or several independent conditions.
+I design operator workflows that correlate by scope, service, component, time, and infrastructure before deciding whether alarms represent one event or several independent conditions. See the [incident correlation case study](case-studies/incident-correlation.md).
 
 ### Human-readable operational interfaces
 
-I build terminal interfaces that turn large machine outputs into labeled, wrapped operator cards instead of forcing the engineer to scan sideways through dense matrices.
+I build terminal interfaces that turn large machine outputs into labeled, wrapped operator cards instead of forcing the engineer to scan sideways through dense matrices. See the [current state vs. history case study](case-studies/current-state-vs-history.md).
 
 ### Recovery engineering
 
@@ -72,13 +82,11 @@ I treat source control, recovery installers, drift checks, and documentation as 
 
 ### Safe automation
 
-Automation should reduce repetition while keeping approvals, control gates, and production safety explicit.
+Automation should reduce repetition while keeping approvals, control gates, and production safety explicit. See the [operator-first control plane](architecture/operator-first-control-plane.md).
 
 ## Qwilt NOC companion
 
-For the sanitized Qwilt-side operator patterns and NOC workflow engineering, use:
-
-https://github.com/anwardeen-PF/misc-repo
+For the sanitized Qwilt-side operator patterns and NOC workflow engineering, use [anwardeen-PF/misc-repo](https://github.com/anwardeen-PF/misc-repo).
 
 ## About this portfolio
 

@@ -4,7 +4,7 @@
 
 The engineering shown in this public portfolio was not created as an isolated hobby demo.
 
-It is a **sanitized presentation of operator tooling, workflow design, and NOC engineering developed in the course of PacketFabric/shared Network Operations work**.
+It is a **sanitized presentation of operator tooling, workflow design, and NOC engineering developed in the course of PacketFabric / shared Network Operations work**.
 
 The production/internal source remains private.
 
@@ -22,20 +22,13 @@ The production/internal source remains private.
 
 Authorized PacketFabric coworkers can verify the underlying implementation history here:
 
-**Private working repository**  
-https://github.com/anwardeen-PF/noc-engineering-toolkit
-
-**Contribution provenance page**  
-https://github.com/anwardeen-PF/noc-engineering-toolkit/blob/main/docs/CONTRIBUTIONS-PACKETFABRIC.md
-
-**Operator-control reconciliation PR**  
-https://github.com/anwardeen-PF/noc-engineering-toolkit/pull/4
+- **Private working repository:** [noc-engineering-toolkit](https://github.com/anwardeen-PF/noc-engineering-toolkit)
+- **Contribution provenance page:** [CONTRIBUTIONS-PACKETFABRIC.md](https://github.com/anwardeen-PF/noc-engineering-toolkit/blob/main/docs/CONTRIBUTIONS-PACKETFABRIC.md)
+- **Operator-control reconciliation PR:** [noc-engineering-toolkit#4](https://github.com/anwardeen-PF/noc-engineering-toolkit/pull/4)
 
 ## Public portfolio
 
-Main portfolio:
-
-https://github.com/anwardeen-PF/Public-you-can-edit-
+Main portfolio: [PacketFabric NOC engineering portfolio](../README.md)
 
 This public repository intentionally removes internal infrastructure details, customer-sensitive evidence, credentials, and proprietary operational data.
 
